@@ -67,10 +67,19 @@
     <Compile Include="DwsForm.Designer.cs">
       <DependentUpon>DwsForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="CameraCfgForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CameraCfgForm.Designer.cs">
+      <DependentUpon>CameraCfgForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="DwsForm.resx">
       <DependentUpon>DwsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CameraCfgForm.resx">
+      <DependentUpon>CameraCfgForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

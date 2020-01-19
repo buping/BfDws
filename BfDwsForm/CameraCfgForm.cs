@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace BfDwsForm
 {
-    public partial class DwsForm : Form
+    public partial class CameraCfgForm : Form
     {
-        public DwsForm()
+        public CameraCfgForm()
         {
             InitializeComponent();
-        }
-
-        private void ToolStripMenuItemCameraCfg_Click(object sender, EventArgs e)
-        {
-            this.toolStripStatusLabelCamera.Text = "已连接";
-            CameraCfgForm frm = new CameraCfgForm();
-            frm.Show();
         }
     }
 }
